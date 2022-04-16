@@ -1,0 +1,35 @@
+// *{
+//     margin: 0%;
+//     padding: 0%;
+//     box-sizing: border-box;
+// }
+
+// #accordion{
+//     width: 100%;
+//     button{
+//         width: 100%;
+//         padding: 20px;
+//         background-color: green;
+//         color: #fff;
+//     }
+//     p{
+//         display: none;
+//         &.active{
+//             display: block;
+//         }
+//     }
+// }
+
+.tab{
+    button{
+        padding: 15px;
+        cursor: pointer;
+    }
+    p{
+        padding: 15px;
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}

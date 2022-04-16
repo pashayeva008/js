@@ -1,0 +1,38 @@
+#dragArea{
+    padding: 50px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px 0 inset red;
+    .dragContent{
+        padding: 40px;
+        border: 2px dashed red;
+        display: flex;
+        flex-wrap: wrap;
+        .drag-item{
+            padding: 10px;
+            margin: 8px;
+            border: 2px solid red;
+            width: calc(100%/7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+        }
+    }
+}
+#dropArea{
+    margin-top: 40px;
+    padding: 40px;
+    border: 3px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    .drag-item{
+        padding: 10px;
+        margin: 8px;
+        border: 2px solid red;
+        width: calc(100%/6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+}
